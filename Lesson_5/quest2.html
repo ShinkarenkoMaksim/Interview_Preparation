@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .just-table {
+            width: 600px;
+            border: 1px solid #000;
+            border-collapse: collapse;
+        }
+
+        .just-table td {
+            border: 1px solid #000;
+            height: 25px;
+        }
+
+        .just-table tr:first-child td {
+            height: 50px;
+        }
+    </style>
+    <link rel="stylesheet" href="../../HTML_CSS/Lesson4/style.css">
+</head>
+<body>
+<table class="just-table">
+    <caption>Просто таблица</caption>
+    <tr>
+        <td></td>
+        <td></td>
+        <td colspan="2"></td>
+    </tr>
+    <tr>
+        <td>
+            <div><span style="float: left">1</span></div>
+            <div><span style="float: left; position: relative; left: 50%">2</span></div>
+            <div><span style="float: right">3</span></div></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2" rowspan="2"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="3"></td>
+        <td></td>
+    </tr>
+</table>
+</body>
+</html>
